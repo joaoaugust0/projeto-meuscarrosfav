@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'Louis George Cafe Bold';
+    src: url(fonts/Louis\ George\ Cafe\ Bold.ttf) format('truetype');}
+
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url(fonts/Louis\ George\ Cafe.ttf) format('truetype');
+}
+
+
+
+
 :root 
 {
     --cor1:#000000;
@@ -7,9 +19,9 @@
     --cor3:#031B33;
     --cor4:#2A0333;
     --cor5:#33041D;
-
+    --fonte-titulo:'Louis George Cafe Bold';
     --fonte-padrao:Arial, Verdana, Helvetica,sans-serif; 
-
+    --fonte-subtitulo:'Louis George Cafe';
 }
 
 *{
@@ -20,10 +32,15 @@
    
 }
 
+body{background-color:rgba(27, 6, 6, 0.212);}
+
+
 header >h1 {
     text-align: center;
     color: white;
     padding: 70px;
+    font-family: var(--fonte-titulo);
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.336);
     
 
 }
@@ -39,6 +56,8 @@ nav{
     color: white;
     display: block;
     margin: 0px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.562);
+    text-align: center;
     
 
 }
@@ -61,7 +80,13 @@ nav > a:hover{
 main{
     min-width: 300px;
     max-width: 1000px;
-    margin-top: 10px;
+    margin-top:0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    padding: 2em;
+    border-radius:0px 0px 30px 30px;
+    
 }
 
 main p{
@@ -69,5 +94,10 @@ main p{
     font-size: 1em;
     margin: 15px 0px;
     line-height: 2em;
-    text-indent: 30px;
-}
+    text-indent: 30px;}
+
+main h2{
+        font-family: var(--fonte-subtitulo);
+        font-size: 1.8em;
+        text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.185);
+        }
