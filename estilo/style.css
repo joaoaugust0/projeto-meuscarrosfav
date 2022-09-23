@@ -40,7 +40,7 @@ header >h1 {
     color: white;
     padding: 70px;
     font-family: var(--fonte-titulo);
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.336);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219);
     
 
 }
@@ -100,7 +100,7 @@ main p{
 main h2{
     font-family: var(--fonte-subtitulo);
     font-size: 1.8em;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.185);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.144);
     }
 
     main img{
