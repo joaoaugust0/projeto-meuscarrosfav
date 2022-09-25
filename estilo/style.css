@@ -9,7 +9,10 @@
     src: url(fonts/Louis\ George\ Cafe.ttf) format('truetype');
 }
 
-
+@font-face {
+    font-family:'Louis George Cafe Light';
+    src: url(fonts/Louis\ George\ Cafe\ Light.ttf) format('truetype');
+}
 
 
 :root 
@@ -22,6 +25,7 @@
     --fonte-titulo:'Louis George Cafe Bold';
     --fonte-padrao:Arial, Verdana, Helvetica,sans-serif; 
     --fonte-subtitulo:'Louis George Cafe';
+    --fonte-rodape:'Louis George Cafe Light';
 }
 
 *{
@@ -112,4 +116,11 @@ main h2{
         display: block;
         margin: auto;
         max-width: 350px;
+    }
+
+    footer{
+        text-align: center;
+        font-family:var(--fonte-rodape);
+        background-color: #00000083;
+
     }
