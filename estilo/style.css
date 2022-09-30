@@ -118,6 +118,12 @@ main h2{
         max-width: 350px;
     }
 
+    aside{
+        display: block;
+        
+    }
+
+
     footer{
         text-align: center;
         font-family:var(--fonte-rodape);
