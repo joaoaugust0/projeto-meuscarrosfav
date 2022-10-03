@@ -84,7 +84,7 @@ nav > a:hover{
 main{
     min-width:280px;
     max-width: 800px;
-    margin: auto;
+    margin:auto;
     background-color: white;
     padding: 2em;
     border-radius:0px 0px 30px 30px;
@@ -119,14 +119,61 @@ main h2{
     }
 
     aside{
-        display: block;
+        background-color: #00000054;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    aside > ul{
+        columns: 2;
+        list-style-position: inside;
+        text-align: left;
+        padding: 10px;
+        list-style-type:'\2699\00A0\00A0';
+    }
+
+    aside > h3{
+        background-color: rgba(0, 0, 0, 0.911);
+        color: white;
+        margin: -20px -10px 0 -10px;
+        padding: 10px;
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+    }
+
+    div.video{
+        background-color: #000000e5;
+        padding: 20px;
+        margin:0px -32px 30px -32px;
+        position: relative;
+        padding-bottom: 60%;
         
+    }
+
+    div.video > iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
     }
 
 
     footer{
         text-align: center;
         font-family:var(--fonte-rodape);
-        background-color: #00000083;
+        background-color: #000000;
+        color: white;
+        padding: 3px;
 
+    }
+
+    footer a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.884);
+    }
+
+    footer a:hover{
+        text-decoration: underline;
     }
